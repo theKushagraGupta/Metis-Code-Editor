@@ -1,0 +1,148 @@
+.homePageWrapper{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.formWrapper{
+  background: #282a36;
+  padding: 20px;
+  border-radius: 20px;
+  width: 5 00px;
+  max-width: 90%;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+}
+
+footer a{
+  color: #4aee88;
+}
+
+.inputs{
+  display: flex;
+  flex-direction: column;
+}
+
+.mainLabel{
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.logo{
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.inputBox{
+  padding: 10px;
+  border-radius: 15px;
+  outline: none;
+  border: none;
+  margin-bottom: 15px;
+  background: #eee;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn{
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.joinBtn{
+  background: #4aed88;
+  width: 100px;
+  margin-left: auto;
+}
+
+.joinBtn:hover{
+  background: #2b824c;
+
+}
+
+.createRoom{
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.createNewBtn{
+  color: #4aed88;
+  text-decoration: none;
+  border-bottom: 1px solid #4aed88;
+  transition: all 0.3s ease-in-out;
+}
+
+.createNewBtn:hover{
+  color: #368654;
+  border-color: #368654;
+}
+
+.mainWrapper {
+  display: grid;
+  grid-template-columns: 230px 1fr;                   /* 230px is fixed space and 1fr implies remaining available space */
+}
+
+.sidePanelWrapper {
+  background: #1c1e29;
+  padding: 16px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidePanelTop {
+  flex: 1; 
+}
+
+.userList{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.user{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.userName {
+  margin-top: 10px;
+}
+
+.logo {
+  border-bottom: 2px solid #424242;
+}
+
+.logoImage {
+  height: 70px;
+}
+
+.leaveBtn{
+  margin-top: 20px;
+  background: #ff2c2c;
+  width: 100%;
+}
+
+.leaveBtn:hover {
+  background: #c30010;
+}
+
+.CodeMirror {
+  min-height: calc(100vh - 20px);              /* -20px (font size) to remove the scroll from initial app */
+  font-size: 20px;
+  line-height: 1.6;
+  padding-top: 20px;
+}
